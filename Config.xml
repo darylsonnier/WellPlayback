@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config wellType="Vertical" >
+	<wellConstants>
+		<pit1TotalVol>320.0</pit1TotalVol>
+		<pit2TotalVol>280.0</pit2TotalVol>
+		<pit3TotalVol>160.0</pit3TotalVol>
+		<standLength>100.0</standLength>
+		<totalStands>150</totalStands>
+		<startDepth>100.0</startDepth>
+		<emptyBlock>20.0</emptyBlock>
+	</wellConstants>
+	<sections>
+		<section depth="500.0" rop="2000" standWeight="4.8" rpmMax="100.0" torqueMax="20.0" spmMax="50.0" bitWeightMax="5.0" flowMax="53.0" azimuth="10.0" inclination = "0.0" mag = "5.0" grav = "5.0" />
+		<section depth="1000.0" rop="500" standWeight="2.8" rpmMax="100.0" torqueMax="30.0" spmMax="75.0" bitWeightMax="15.0" flowMax="33.0" azimuth="10.0" inclination = "0.0" mag = "5.0" grav = "5.0" />
+		<section depth="3500.0" rop="300" standWeight="2.8" rpmMax="100.0" torqueMax="50.0" spmMax="75.0" bitWeightMax="25.0" flowMax="33.0" azimuth="10.0" inclination = "0.0" mag = "5.0" grav = "5.0" />
+		<section depth="35000.0" rop="150" standWeight="2.8" rpmMax="100.0" torqueMax="50.0" spmMax="75.0" bitWeightMax="35.0" flowMax="33.0" azimuth="10.0" inclination = "0.0" mag = "5.0" grav = "5.0" />
+	</sections>
+</config>
